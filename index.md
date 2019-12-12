@@ -1,37 +1,12 @@
-## Welcome to GitHub Pages
+# An Analysis of Legal Recorded Gun Purchases vs Violent Gun Crime Regarding State
+### by Casey Harris
 
-You can use the [editor on GitHub](https://github.com/velinara/sample/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
+### Table of Contents
 ```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+1. Introduction
+2. Description of Data Selection and Sources
+3. Pruning, Analysis, and Visualization of FBI NICS Data
+4. Analysis and Visualization of CDC Data (With Comparisons to FBI NICS Data)
+5. Analysis and Visualization of Altered FBI NICS Data (With Comparisons to CDC Data)
+6. Conclusions
 ```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Manuel83/sample/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
