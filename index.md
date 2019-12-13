@@ -24,12 +24,16 @@ The second set of data I will be examining is from the Centers for Disease Contr
 
 ## 3. Pruning, Analysis, and Visualization of FBI NICS Data
 This is a sample of what the table from the csv looks like unaltered:
-(INSERT CELL)
+(INSERT CELL 2)
 
 It was indicated by The New York Times analyzed NICS data in Dec. 2015 that not all columns in the table represent sales. Handgun, Long Gun, and Multiple indicate sales, while others are excluded. In that case,  will keep only the pertinent information, which is the year/month, state, handgun, long gun, and multiple.
-(INSERT CELL)
+(INSERT CELL 3)
 
 That looks a bit more reasonable. However, I'm not interested in having it in a month by month format. I also want to have the years line up between this data and the CDC data, so I will be condensing the Year_Month column into only Year, and I will drop all years before 1999 and after 2017.
-(INSERT CELL)
+(INSERT CELL 4)
 
-Much better. For the sake of 
+Much better. To make this easier to graph and analyze, I will be grouping by year and state while summing all of the background checks for each state since there are still 12 entries for each state per year. Keep in mind that this data has not been altered yet with Jurgen Brauer's suggested method.
+(INSERT CELL 5)
+
+Now we can start to graph and make some observations. First, I'm going to check if the number of background checks increases linearly across year for each state.
+(INSERT CELL)
