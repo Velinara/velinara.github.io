@@ -28,3 +28,8 @@ This is a sample of what the table from the csv looks like unaltered:
 
 It was indicated by The New York Times analyzed NICS data in Dec. 2015 that not all columns in the table represent sales. Handgun, Long Gun, and Multiple indicate sales, while others are excluded. In that case,  will keep only the pertinent information, which is the year/month, state, handgun, long gun, and multiple.
 (INSERT CELL)
+
+That looks a bit more reasonable. However, I'm not interested in having it in a month by month format. I also want to have the years line up between this data and the CDC data, so I will be condensing the Year_Month column into only Year, and I will drop all years before 1999 and after 2017.
+(INSERT CELL)
+
+Much better. For the sake of 
