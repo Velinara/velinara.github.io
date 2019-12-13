@@ -21,3 +21,5 @@ The first data set I will be examining is from the FBI's National Instant Crimin
 Despite these caveats, the FBI’s NICS numbers are widely accepted as the best proxy for total gun sales in a given time period. However, I also plan on using a method to better estimate the number of gun sales. A professor at Georgia Regents University named Jurgen Brauer recommends a method in the Small Arms Survey [[4]](http://www.smallarmssurvey.org/fileadmin/docs/F-Working-papers/SAS-WP14-US-Firearms-Industry.pdf) where "each long gun and handgun check was counted as 1.1 sales. Each multiple-gun check was counted as two sales. Permit checks and other types of checks were omitted. The multiplier is an estimate based on Mr. Brauer's interviews with gun shop owners."
 
 The second set of data I will be examining is from the Centers for Disease Control and Prevention's (CDC) fatal injury reports from 1999 - 2017 [[5]](https://www.cdc.gov/injury/wisqars/fatal.html). I submitted a request to their database and I specified that I only wanted information about violent crime involving guns for each state. (FINISH)
+
+## 3. Pruning, Analysis, and Visualization of FBI NICS Data
