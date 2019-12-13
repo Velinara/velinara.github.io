@@ -23,3 +23,8 @@ Despite these caveats, the FBI’s NICS numbers are widely accepted as the best 
 The second set of data I will be examining is from the Centers for Disease Control and Prevention's (CDC) fatal injury reports from 1999 - 2017 [[5]](https://www.cdc.gov/injury/wisqars/fatal.html). I submitted a request to their database and I specified that I only wanted information about violent crime involving guns for each state. (FINISH)
 
 ## 3. Pruning, Analysis, and Visualization of FBI NICS Data
+This is a sample of what the table from the csv looks like unaltered:
+(INSERT CELL)
+
+It was indicated by The New York Times analyzed NICS data in Dec. 2015 that not all columns in the table represent sales. Handgun, Long Gun, and Multiple indicate sales, while others are excluded. In that case,  will keep only the pertinent information, which is the year/month, state, handgun, long gun, and multiple.
+(INSERT CELL)
