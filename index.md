@@ -38,6 +38,7 @@ Now I'm going to get a general idea of the trend of gun purchasing overall in th
 Overall it appears there has been a positive trend in the number of background checks, which implies more guns being purchased. It is noteworthy that there is a slight dip around the year 2005. Next, I will adjust the numbers of the background checks to better represent the true number of gun sales.
 (INSERT CELL 6)
 
-Without the method suggested by Jurgen Brauer to better estimate the number of gun sales, we would ultimately have overlooked thousands of gun sales. The most obvious example of this in the graphs is that Multiple Gun background checks were doubled, resulting in the upper bound for Multiple Guns increasing by 200,000.
+Without the method suggested by Jurgen Brauer to better estimate the number of gun sales, we would ultimately have overlooked thousands of gun sales. The most obvious example of this in the graphs is that Multiple Gun background checks were doubled, resulting in the upper bound for Multiple Guns increasing by 200,000. I will be using the altered data exclusively from this point on.
 
 I am now interested in seeing which state has sold the most guns total. I will be summing all gun sales for each state across all years.
+(INSERT CELL 7)
