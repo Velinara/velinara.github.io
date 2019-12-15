@@ -32,8 +32,8 @@ It was indicated by The New York Times analyzed NICS data in Dec. 2015 that not 
 That looks a bit more reasonable. However, I'm not interested in having it in a month by month format. I also want to have the years line up between this data and the CDC data, so I will be condensing the Year_Month column into only Year, and I will drop all years before 1999 and after 2017.
 (INSERT CELL 4)
 
-Much better. To make this easier to graph and analyze, I will be grouping by year and state while summing all of the background checks for each state since there are still 12 entries for each state per year. Keep in mind that this data has not been altered yet with Jurgen Brauer's suggested method.
+Now I'm going to get a general idea of the trend of gun purchasing overall in the United States from 1999 to 2017. Keep in mind that this data has not been altered yet with Jurgen Brauer's suggested method to get a more accurate estimation of sales. 
 (INSERT CELL 5)
 
-Now we can start to graph and make some observations. First, I'm going to check if the number of background checks increases linearly across year for each state.
-(INSERT CELL)
+Overall it appears there has been a positive trend in the number of background checks, which implies more guns being purchased. It is noteworthy that there is a slight dip around the year 2005. Next, I will adjust the numbers of the background checks to better represent the true number of gun sales.
+(INSERT CELL 6)
