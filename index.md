@@ -4,9 +4,9 @@
 ## Table of Contents
 1. Introduction
 2. Description of Data and Data Sources
-3. Pruning, Analysis, and Visualization of FBI NICS Data
-4. Analysis and Visualization of Altered FBI NICS Data
-5. Analysis and Visualization of CDC Data (With Comparisons to Altered FBI NICS Data)
+3. Pruning, Analysis, and Visualization of FBI NICS Data and Altered FBI NICS Data
+4. Analysis and Visualization of CDC Data
+5. Comparisons between Altered FBI NICS Data and CDC Data
 6. Conclusions
 
 ## 1. Introduction
@@ -37,3 +37,7 @@ Now I'm going to get a general idea of the trend of gun purchasing overall in th
 
 Overall it appears there has been a positive trend in the number of background checks, which implies more guns being purchased. It is noteworthy that there is a slight dip around the year 2005. Next, I will adjust the numbers of the background checks to better represent the true number of gun sales.
 (INSERT CELL 6)
+
+Without the method suggested by Jurgen Brauer to better estimate the number of gun sales, we would ultimately have overlooked thousands of gun sales. The most obvious example of this in the graphs is that Multiple Gun background checks were doubled, resulting in the upper bound for Multiple Guns increasing by 200,000.
+
+I am now interested in seeing which state has sold the most guns total. I will be summing all gun sales for each state across all years.
