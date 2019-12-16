@@ -40,14 +40,39 @@ Overall it appears there has been a positive trend in the number of background c
 
 Without the method suggested by Jurgen Brauer to better estimate the number of gun sales, we would ultimately have overlooked thousands of gun sales. The most obvious example of this in the graphs is that Multiple Gun background checks were doubled, resulting in the upper bound for Multiple Guns increasing by 200,000. I will be using the altered data exclusively from this point on.
 
-I am now interested in seeing which state has sold the most guns total. I will be summing all gun sales for each state across all years.
+Let's see the gun purchasing trends from 1999-2017 for each state.
 (INSERT CELL 7)
+
+Hawaii's number of gun purchases has remained static over time. There has only been one state that has had a decrease in gun purchases, and that is Iowa. Every other state has seen an increase since 1999.
+
+I am now interested in seeing which state has sold the most guns total. I will be summing all gun sales for each state across all years.
+(INSERT CELL 8)
 
 It is clear from the choropleth map that Texas as a state has seen the most gun purchases between 1999 and 2017. How does that stack up against crime statistics? Is Texas also the state where the most gun crime occurs?
 
 ## 4. Analysis and Visualization of CDC Data
 This is a sample of what the table from the csv looks like unaltered:
-(INSERT CELL 8)
+(INSERT CELL 9)
 
 I'm not particularly interested in information outside of the year, state, population, deaths, crude rate, and age-adjusted rate, so I will remove all other rows. I will also remove the rows with NaN, as they are simply rows that contain the overall totals for each year.
 (INSERT CELL 9)
+
+Now let's see the number of gun-related deaths over the years as a whole.
+(INSERT CELL 10)
+
+The increase in gun-related homicide has increased over the years as a whole. However, I'd like to get a better look at the deaths per state over the years.
+(INSERT CELL 11)
+
+California, DC, New York, and Rhode Island are the only states whose number of gun-related homicides has decreased over time.
+
+Much like how I handled the FBI NICS data, I am going to use a choropleth map to determine which state has had the most gun-related homicides from 1999-2007.
+(INSERT CELL 12)
+
+## 5. Comparisons between Altered FBI NICS Data and CDC Data
+It is interesting to see that states that had the most gun purchases do not necessarily have the most gun-related homicides. Without checking each state's number of gun-related homicides and the number of gun purchases individually from 1999-2017, I would not have thought much of it. After all, California and New York, despite clearly being higher in the number of gun purchases and the number of gun-related homicides has actually decreased in gun-related homicides since 1999. Why is this?
+
+I wanted to see if there was a specific cause that I could trace for the decrease in gun-related deaths. Surely these states must be doing something right. As it turns out, California and New York have tightened their gun control laws significantly over the past two decades.
+
+New York:
+
+California:
