@@ -7,7 +7,7 @@
 3. Pruning, Analysis, and Visualization of FBI NICS Data and Altered FBI NICS Data
 4. Analysis and Visualization of CDC Data
 5. Comparisons between Altered FBI NICS Data and CDC Data
-6. Conclusions
+6. Conclusion
 
 ## 1. Introduction
 It's no secret that gun-related crime is a big problem in America. The number of mass shootings in 2019 alone is over 390 [[1]](https://www.gunviolencearchive.org/), more than the number of days in a year. (FINISH)
@@ -54,25 +54,29 @@ It is clear from the choropleth map that Texas as a state has seen the most gun 
 This is a sample of what the table from the csv looks like unaltered:
 (INSERT CELL 9)
 
-I'm not particularly interested in information outside of the year, state, population, deaths, crude rate, and age-adjusted rate, so I will remove all other rows. I will also remove the rows with NaN, as they are simply rows that contain the overall totals for each year.
-(INSERT CELL 9)
-
-Now let's see the number of gun-related deaths over the years as a whole.
+I'm not particularly interested in information outside of the year, state, and deaths, so I will remove all other rows. I will also remove the rows with NaN, as they are simply rows that contain the overall totals for each year.
 (INSERT CELL 10)
 
-The increase in gun-related homicide has increased over the years as a whole. However, I'd like to get a better look at the deaths per state over the years.
+Now let's see the number of gun-related deaths over the years as a whole.
 (INSERT CELL 11)
+
+The increase in gun-related homicide has increased over the years as a whole. However, I'd like to get a better look at the deaths per state over the years.
+(INSERT CELL 12)
 
 California, DC, New York, and Rhode Island are the only states whose number of gun-related homicides has decreased over time.
 
 Much like how I handled the FBI NICS data, I am going to use a choropleth map to determine which state has had the most gun-related homicides from 1999-2007.
-(INSERT CELL 12)
+(INSERT CELL 13)
 
 ## 5. Comparisons between Altered FBI NICS Data and CDC Data
-It is interesting to see that states that had the most gun purchases do not necessarily have the most gun-related homicides. Without checking each state's number of gun-related homicides and the number of gun purchases individually from 1999-2017, I would not have thought much of it. After all, California and New York, despite clearly being higher in the number of gun purchases and the number of gun-related homicides has actually decreased in gun-related homicides since 1999. Why is this?
+It is interesting to see that states that had the most gun purchases do not necessarily have the most gun-related homicides. Without checking each state's number of gun-related homicides and the number of gun purchases individually from 1999-2017, I would not have thought much of it. After all, California and New York, despite clearly being higher in the number of gun purchases and the number of gun-related homicides has actually decreased in the number of gun-related homicides since 1999. Why is this?
 
-I wanted to see if there was a specific cause that I could trace for the decrease in gun-related deaths. Surely these states must be doing something right. As it turns out, California and New York have tightened their gun control laws significantly over the past two decades.
+I wanted to see if there was a specific cause that I could trace for the decrease in gun-related deaths. Surely these states must be doing something right? As it turns out, California, New York, and Washington DC have tightened their gun control laws significantly over the past two decades.
+
+California: Starting in 1991, California had, and has, more gun laws than any other state. The number of restrictions on guns has only increased over time. These laws generally come in response to a tragedy, sadly, and there have been many over the course of the past one-hundred and fifty years. More information can be found [here](https://calmatters.org/explainers/california-gun-laws-policy-explained/?gclid=Cj0KCQiA0NfvBRCVARIsAO4930mZqDK2C1WLiY8hgUWc4HSlreY9xnfr34XRbw7N7QjvKT9L0GOvVi8aAtajEALw_wcB).
 
 New York:
 
-California:
+Washington DC:
+
+## 6. Conclusion
