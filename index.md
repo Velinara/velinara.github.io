@@ -5,7 +5,7 @@
 1. Introduction
 2. Description of Data and Data Sources
 3. Pruning, Analysis, and Visualization of FBI NICS Data and Altered FBI NICS Data
-4. Analysis and Visualization of CDC Data
+4. Pruning, Analysis, and Visualization of CDC Data
 5. Comparisons between Altered FBI NICS Data and CDC Data
 6. Conclusion
 
