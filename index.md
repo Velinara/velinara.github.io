@@ -26,7 +26,7 @@ The second set of data I will be examining is from the Centers for Disease Contr
 This is a sample of what the table from the csv looks like unaltered:
 (INSERT CELL 2)
 
-It was indicated by The New York Times analyzed NICS data in Dec. 2015 that not all columns in the table represent sales. Handgun, Long Gun, and Multiple indicate sales, while others are excluded. In that case,  will keep only the pertinent information, which is the year/month, state, handgun, long gun, and multiple.
+It was indicated by The New York Times analyzed NICS data in Dec. 2015 that not all columns in the table represent sales. Handgun, Long Gun, and Multiple indicate sales, while others are excluded. In that case,  will keep only the pertinent information, which is the year/month, state, handgun, long gun, and multiple. I'm also going to remove the 4 US territories that are included so that we'll be left with the 50 states.
 (INSERT CELL 3)
 
 That looks a bit more reasonable. However, I'm not interested in having it in a month by month format. I also want to have the years line up between this data and the CDC data, so I will be condensing the Year_Month column into only Year, and I will drop all years before 1999 and after 2017.
@@ -42,3 +42,12 @@ Without the method suggested by Jurgen Brauer to better estimate the number of g
 
 I am now interested in seeing which state has sold the most guns total. I will be summing all gun sales for each state across all years.
 (INSERT CELL 7)
+
+It is clear from the choropleth map that Texas as a state has seen the most gun purchases between 1999 and 2017. How does that stack up against crime statistics? Is Texas also the state where the most gun crime occurs?
+
+## 4. Analysis and Visualization of CDC Data
+This is a sample of what the table from the csv looks like unaltered:
+(INSERT CELL 8)
+
+I'm not particularly interested in information outside of the year, state, population, deaths, crude rate, and age-adjusted rate, so I will remove all other rows. I will also remove the rows with NaN, as they are simply rows that contain the overall totals for each year.
+(INSERT CELL 9)
