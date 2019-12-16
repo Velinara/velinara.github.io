@@ -73,10 +73,12 @@ It is interesting to see that states that had the most gun purchases do not nece
 
 I wanted to see if there was a specific cause that I could trace for the decrease in gun-related deaths. Surely these states must be doing something right? As it turns out, California, New York, and Washington DC have tightened their gun control laws significantly over the past two decades.
 
-California: Starting in 1991, California had, and has, more gun laws than any other state. The number of restrictions on guns has only increased over time. These laws generally come in response to a tragedy, and sadly there have been many over the course of the past one-hundred and fifty years. Some of these laws include requiring buyers to pass training courses, long bans for gun related offenses, and capping the number of handguns. In 2019, they passed a law that prevents individuals found guilty of misdemeanor domestic violence from purchasing guns. More information and graphics can be found [here](https://calmatters.org/explainers/california-gun-laws-policy-explained/?gclid=Cj0KCQiA0NfvBRCVARIsAO4930mZqDK2C1WLiY8hgUWc4HSlreY9xnfr34XRbw7N7QjvKT9L0GOvVi8aAtajEALw_wcB).
+### California
+Starting in 1991, California had, and has, more gun laws than any other state. The number of restrictions on guns has only increased over time. These laws generally come in response to a tragedy, and sadly there have been many over the course of the past one-hundred and fifty years. Some of these laws include requiring buyers to pass training courses, long bans for gun related offenses, and capping the number of handguns. In 2019, they passed a law that prevents individuals found guilty of misdemeanor domestic violence from purchasing guns. More information and graphics can be found [here](https://calmatters.org/explainers/california-gun-laws-policy-explained/?gclid=Cj0KCQiA0NfvBRCVARIsAO4930mZqDK2C1WLiY8hgUWc4HSlreY9xnfr34XRbw7N7QjvKT9L0GOvVi8aAtajEALw_wcB).
 
-New York: New York has also seen its fair share of laws passed in regards to gun control. In early 2019 alone, six new laws were passed, with the last set of laws being passed in 2013 after the Sandy Hook massacre. Some of these 2013 laws included stricter bans on assault weapons, made it harder to get certified, and increased legal penalties for illegal gun sales and exploiting gun sale loopholes. More information can be found [here](https://www.nytimes.com/2019/01/29/nyregion/gun-laws-new-york.html).
+### New York
+New York has also seen its fair share of laws passed in regards to gun control. In early 2019 alone, six new laws were passed, with the last set of laws being passed in 2013 after the Sandy Hook massacre. Some of these 2013 laws included stricter bans on assault weapons, made it harder to get certified, and increased legal penalties for illegal gun sales and exploiting gun sale loopholes. More information can be found [here](https://www.nytimes.com/2019/01/29/nyregion/gun-laws-new-york.html).
 
-Washington DC:
+### Washington DC
 
 ## 6. Conclusion
